@@ -1,0 +1,178 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bgimage {
+    height:100vh;
+    background: url('shop.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: #d1c4a8;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Menu styles */
+#menu {
+    padding: 4 0px;
+    background-color: #ecce9f;
+}
+
+.drink {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.drink img {
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+/* Task Two */
+.two{
+    background-color: rgb(244, 217, 122);
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 750px;
+}
+
+.two h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    max-width: 40%;
+    text-align: center;left: 600px;
+}
+
+.two p{
+    font-size: 50px;
+    margin-top: -200px;
+    margin-left: 800px;
+    max-width: 30%;
+    text-align: center;top:-600px;
+}
+
+.two img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  
+}
+
+#about-us{
+    display:flex;
+}
+#about-us img{
+    padding-top: -50px;
+    padding-right: 20px;
+}
+#about-us {
+    padding-top: 100px;
+}
+/* Contact Us styles */
+#contact {
+    padding: 50px;
+    background-color: #fbd990;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #fbd990;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ecce9f;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d1c4a8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
